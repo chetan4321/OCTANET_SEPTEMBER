@@ -1,0 +1,86 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #5d8aa8;
+    border-radius: 2px;
+    border-width: 2px;
+    color: white;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.task:hover {
+    background-color: #d6e9ff;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task .text {
+    flex-grow: 1;
+    color: #333;
+}
+
+.task .delete-button {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.add-task-form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.add-task-form input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.themes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.theme {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.theme:hover {
+    transform: scale(1.1);
+}
+
+.quote {
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+    color: #666;
+}
